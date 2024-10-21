@@ -9,21 +9,21 @@
 
 2) Перейдите в папку проекта и введите:
 
-g++ main.cpp
+    g++ main.cpp
 
-./a.out name
+    ./a.out name
 
 
-где "name" - путь до Вашего файла BMP файла
+    где "name" - путь до Вашего BMP файла
 
 # Тестовые данные
 
-simple.bmp - картинка из 16 пикселей. На ней была протестирована работоспособность программы.
+simple.bmp - картинка из 16 пикселей. На ней была протестирована работоспособность программы.\
 random.bmp и cxx.bmp - произвольные картинки, созданные в Paint.
 Тесты были пройдены успешно.
 
 # Пример работы
 
-./a.out pictures/simple.bmp
-./a.out pictures/cxx.bmp 
+./a.out pictures/simple.bmp\
+./a.out pictures/cxx.bmp\
 ./a.out pictures/random.bmp
